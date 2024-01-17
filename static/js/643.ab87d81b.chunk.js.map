@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/643.ab87d81b.chunk.js","mappings":"4KAAe,SAASA,IACtB,OAAOC,EAAAA,EAAAA,KAAA,MAAAC,SAAI,sBACb,C","sources":["pages/Favorite.jsx"],"sourcesContent":["export default function Favorite() {\n  return <h1>Car list favorite!</h1>;\n}\n"],"names":["Favorite","_jsx","children"],"sourceRoot":""}

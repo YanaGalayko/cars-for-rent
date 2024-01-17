@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/415.526b0cce.chunk.js","mappings":"4KAAe,SAASA,IACtB,OAAOC,EAAAA,EAAAA,KAAA,MAAAC,SAAI,uCACb,C","sources":["pages/Home.jsx"],"sourcesContent":["export default function Home() {\n  return <h1>Сar rental is simple and easy!</h1>;\n}\n"],"names":["Home","_jsx","children"],"sourceRoot":""}

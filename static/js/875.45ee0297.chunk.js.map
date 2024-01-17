@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/875.45ee0297.chunk.js","mappings":"4KAAe,SAASA,IACtB,OAAOC,EAAAA,EAAAA,KAAA,MAAAC,SAAI,aACb,C","sources":["pages/Catalog.jsx"],"sourcesContent":["export default function Catalog() {\n  return <h1>Car list!</h1>;\n}\n"],"names":["Catalog","_jsx","children"],"sourceRoot":""}
