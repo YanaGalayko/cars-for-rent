@@ -2,13 +2,13 @@ import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 import { GlobalStyle } from './GlobalStyle';
 import { Loader } from './Loader/Loader';
-import { AppNav } from './AppNav/AppNav';
+import { AppBar } from './AppBar/AppBar';
 
 export const SharedLayout = () => {
   return (
     <>
       <header>
-        <AppNav />
+        <AppBar />
       </header>
       <main>
         <Suspense fallback={<Loader />}>

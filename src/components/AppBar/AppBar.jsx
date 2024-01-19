@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
-import { NavWrap } from './AppNav.styled';
+import { NavWrap } from './AppBar.styled';
 
-export const AppNav = () => {
+export const AppBar = () => {
   return (
     <NavWrap>
       <NavLink to="/">Home</NavLink>
