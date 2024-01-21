@@ -14,6 +14,7 @@ import storage from 'redux-persist/lib/storage';
 import { carsReducer } from './cars/carsSlise';
 import { filterReducer } from './filter/filterSlise';
 import { favoriteReducer } from './favorite/favoriteSlice';
+import { paginationReducer } from './cars/paginationSlice';
 
 const persistConfig = {
   key: 'favorite',
@@ -26,6 +27,7 @@ export const store = configureStore({
     cars: carsReducer,
     filters: filterReducer,
     favorite: persistReducer(persistConfig, favoriteReducer),
+    pagination: paginationReducer,
   },
   middleware: getDefaultMiddleware =>
     getDefaultMiddleware({

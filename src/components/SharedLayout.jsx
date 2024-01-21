@@ -3,10 +3,11 @@ import { Outlet } from 'react-router-dom';
 import { GlobalStyle } from './GlobalStyle';
 import { Loader } from './Loader/Loader';
 import { AppBar } from './AppBar/AppBar';
+import { Layout } from './Layout';
 
 export const SharedLayout = () => {
   return (
-    <>
+    <Layout>
       <header>
         <AppBar />
       </header>
@@ -16,6 +17,6 @@ export const SharedLayout = () => {
         </Suspense>
       </main>
       <GlobalStyle />
-    </>
+    </Layout>
   );
 };

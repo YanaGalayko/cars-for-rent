@@ -7,10 +7,12 @@ export const CarsList = () => {
   const cars = useSelector(selectCars);
 
   return (
-    <WrapList>
-      {cars.map(item => (
-        <CarsListItem key={item.id} car={item} />
-      ))}
-    </WrapList>
+    <>
+      <WrapList>
+        {cars.map(item => (
+          <CarsListItem key={item.id} car={item} />
+        ))}
+      </WrapList>
+    </>
   );
 };
